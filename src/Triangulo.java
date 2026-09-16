@@ -2,6 +2,7 @@ import javax.swing.*;
 
 public class Triangulo
 {
+    // Metodo triangulo para saber cual tipo de triangulo es un triangulo
     public String determinarTipo(double lado1, double lado2, double lado3)
     {
         if (lado1 == lado2 && lado2 == lado3) {
